@@ -1,0 +1,233 @@
+.page {
+    background-color: #2A2C2F;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.header {
+    max-width: 95%;
+    min-height: 52px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-bottom: 0px;
+    align-items: flex-end;
+}
+
+.header__logo {
+    max-width: 176px;
+    max-height: 52px;
+    display: flex;
+}
+
+.header__lang-link {
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+    width: 30px;
+    text-decoration: none;
+}
+
+.header__lang-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__lang-list-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header__lang-link:focus {
+    text-decoration: underline;
+}
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}
+
+.lead {
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 92px;
+    ;
+}
+
+.lead__illustration {
+    max-width: 100%;
+}
+
+.lead__title {
+    text-align: center;
+    max-width: 720px;
+    max-height: 200px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    color: white;
+    margin: 56px auto 32px;
+}
+
+.lead__subtitle {
+    color: white;
+    max-width: 640px;
+    max-height: 72px;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto 64px;
+}
+
+.lead__caption {
+    color: white;
+    font-size: 10px;
+    line-height: 14px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    max-width: fit-content;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-top: 8px;
+    padding: 0;
+}
+
+.intro {
+    max-width: 75%;
+    margin: auto;
+}
+
+.intro__title {
+    color: white;
+    padding: 0;
+    margin: 0;
+    max-width: 690px;
+    font-size: 54px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.intro__text {
+    color: white;
+    padding: 0;
+    max-width: 690px;
+    margin: 40px 0 33px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.intro__list {
+    color: white;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.photo-grid {
+    max-width: 95%;
+    margin: 92px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px 16px;
+    box-sizing: border-box;
+}
+
+.photo-grid__pic {
+    max-width: 100%;
+}
+
+.places {
+    color: white;
+    max-width: 984px;
+    margin: 0 auto 0;
+}
+
+.places__item {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    column-gap: 40px;
+    row-gap: 48px;
+    margin-top: 92px;
+}
+
+.places__title {
+    font-family: 'Inter';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 76px;
+    display: inline-block;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+.places__website-container {
+    max-width: 460px;
+    align-self: flex-end;
+}
+
+.places__url {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.places__link {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    color: white;
+}
+
+.places__image {
+    max-width: 460px;
+}
+
+.places__description-container {
+    max-width: 484px;
+    padding: 0;
+    margin: 0;
+}
+
+.places__description {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    padding: 0;
+    margin: 0;
+}
+
+.places__description:first-child {
+    margin-bottom: 26px;
+}

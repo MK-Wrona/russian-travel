@@ -1,0 +1,13 @@
+.places__description {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+.places__description:first-child {
+    margin-bottom: 26px;
+}

@@ -1,0 +1,9 @@
+.cover__descriprion {
+    max-width: 360px;
+    margin: 32px 0px 0px;
+    font-size: 18px;
+    line-height: 1.2;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}

@@ -1,9 +1,57 @@
+/* решали всей маршруткой. пошли по аналогии квадрата с паддингом в 100% и высотой в 0 из тренажера,
+только взяли в расчет соотношение сторон прямоугольника. не уверена насчет корректности, но работает как в макете указано. */
+
 .cover__link {
-    display: block;
+    min-height: 740px;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: calc(31.25% - 370px);
+    padding-bottom: calc(31.25% - 370px);
+}
+
+.cover__link:before {
+    background-color: #2A2C2F;
+    content: '';
     position: absolute;
     top: 0;
+    right: 0;
+    bottom: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
+    opacity: .3;
+    transition: opacity .5s ease;
+}
+
+.cover__link:hover:before {
+    opacity: .8;
+}
+
+@media screen and (max-width: 1270px) {
+    .cover__link {
+        min-height: 640px;
+        padding-top: calc(31.25% - 320px);
+        padding-bottom: calc(31.25% - 320px);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .cover__link {
+        min-height: 480px;
+        padding-top: calc(31.25% - 240px);
+        padding-bottom: calc(31.25% - 240px);
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .cover__link {
+        min-height: 200px;
+        padding-top: calc(31.25% - 100px);
+        padding-bottom: calc(31.25% - 100px);
+    }
 }

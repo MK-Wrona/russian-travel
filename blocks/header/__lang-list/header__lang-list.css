@@ -1,13 +1,13 @@
 .header__lang-list {
     display: flex;
-    list-style-type: none;
-    padding: 0;
+    align-items: flex-end;
     margin: 0;
-    display: flex;
-    flex-direction: row;
+    padding: 0;
+    list-style-type: none;
 }
 
-.header__lang-list-item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 576px) {
+    .header__lang-list {
+        align-items: center;
+    }
 }

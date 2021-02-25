@@ -1,9 +1,17 @@
-.lead {
-    max-width: 75%;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 92px;
-}
+  .lead {
+      max-width: 984px;
+      margin: 0 auto;
+      padding: 0 4%;
+  }
+
+  @media screen and (max-width: 1024px) {
+      .lead {
+          padding: 0 5%;
+      }
+  }
+
+  @media screen and (max-width: 768px) {
+      .lead {
+          padding: 0;
+      }
+  }

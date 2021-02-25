@@ -1,5 +1,6 @@
-.header__logo {
-    max-width: 176px;
-    max-height: 52px;
-    display: flex;
+@media screen and (max-width: 576px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
 }

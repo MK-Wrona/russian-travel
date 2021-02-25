@@ -1,5 +1,7 @@
-@import url(../fonts/inter.css);
+@import url(../styles/normalize.css);
+@import url(../blocks/travel-project/travel-project.css);
 @import url(../blocks/page/page.css);
+@import url(../fonts/inter.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-list/header__lang-list.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -25,11 +27,12 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__pic/photo-grid__pic.css);
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__description-container/places__description-container.css);
-@import url(../blocks/places/__description/places__description.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__item/places__item.css);
 @import url(../blocks/places/__link/places__link.css);
-@import url(../blocks/places/__title/places__title\ .css);
+@import url(../blocks/places/__text/places__text.css);
+@import url(../blocks/places/__title/places__title.css);
 @import url(../blocks/places/__url/places__url.css);
-@import url(../blocks/places/__website-container/places__website-container.css);
+@import url(../blocks/places/__web-container/places__web-container.css);
+@import url(../blocks/header/__lang-list-item/header__lang-list-item.css);
+@import url(../blocks/header/header__lang-link/_focused/header__lang-link_focused.css);

@@ -3,5 +3,11 @@
 }
 
 .footer__list-nav:last-child {
-    margin-right: 0px;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 760px) {
+    .footer__list-nav {
+        margin-bottom: 32px;
+    }
 }

@@ -8,12 +8,7 @@
 
 .header__lang-link:hover {
     text-decoration: underline;
-    opacity: 0.8;
-}
-
-.header__lang-link:focused {
-    text-decoration: underline;
-    opacity: 0.8;
+    opacity: .8;
 }
 
 @media screen and (max-width: 576px) {

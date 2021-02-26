@@ -2,7 +2,9 @@
     margin: 8px 0 0;
     letter-spacing: 0.15em;
     font-size: 10px;
+    /*прошу прощения, но мне кажется, что в макете размер шрифта составляет 10 пикселей*/
     line-height: 1.4;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 960px) {

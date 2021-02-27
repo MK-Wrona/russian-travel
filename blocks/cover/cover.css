@@ -2,14 +2,15 @@
     margin: 90px 48px 0;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
     .cover {
-        margin-top: 90px;
+        margin: 90px 0 0;
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 760px) {
     .cover {
-        margin-top: 66px;
+        margin: 66px 0 0;
     }
 }
